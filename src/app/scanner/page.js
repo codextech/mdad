@@ -92,7 +92,9 @@ const Page = () => {
 
         if (decodedText) {
             setState({
-                result: data,
+                result: {
+                    text: decodedText
+                },
             });
         }
     };
