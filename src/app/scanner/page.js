@@ -3,7 +3,9 @@
 import React,{useState,useEffect} from "react";
 import {Button} from "@/components/ui/button";
 import {ChevronRight} from "lucide-react";
-import QrReader from 'react-qr-scanner'
+// import QrReader from 'react-qr-scanner'
+import {QrReader} from 'react-qr-reader';
+
 import { useRouter } from 'next/navigation'
 
 
